@@ -80,17 +80,17 @@
 				"Content-Type": "application/font-woff; charset=UTF-8"
 			}
 		},
-		"pages/assets/(.*)(png|PNG)$": {
+		"img/(.*)(png|PNG)$": {
 			"headers": {
 				"Content-Type": "image/png"
 			}
 		},
-		"pages/assets/(.*)(jpg|JPG|jpeg|JPEG)$": {
+		"img/(.*)(jpg|JPG|jpeg|JPEG)$": {
 			"headers": {
 				"Content-Type": "image/jpeg"
 			}
 		},
-		"pages/assets/(.*)(svg|SVG)$": {
+		"img/(.*)(svg|SVG)$": {
 			"headers": {
 				"Content-Type": "image/svg+xml; charset=UTF-8"
 			}
